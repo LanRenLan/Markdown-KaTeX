@@ -53,9 +53,8 @@ Markdown使用以下的符号来创建表格：
 
 Markdown 使用 `>` 来创建引用。
 
-以上是 Markdown 的基本语法。接下来，我们将进入 KaTeX 的部分。
 
-## KaTeX
+# KaTeX
 
 KaTeX 是一种在网络上显示数学公式的语言。其语法和 LaTeX 的数学模式非常相似。在这个指南中，我们将介绍一些基本的 KaTeX 语法和一些数学公式的例子。
 
@@ -147,12 +146,10 @@ $$J_{\nu}(x) = \frac{1}{\pi}\int_{0}^{\pi}\cos(\nu t - x\sin t) dt$$
 
 朗日量如下：
 
-$$
-\begin{aligned}
+$$\begin{aligned}
 \mathcal{L}_{\text{SM}} =& - \frac{1}{4} W_{\mu \nu}^{i} W^{\mu \nu i} - \frac{1}{4} B_{\mu \nu} B^{\mu \nu} - \frac{1}{4} G_{\mu \nu}^{a} G_{a}^{\mu \nu} + \overline{Q}_{L}^{i} i \gamma^{\mu} D_{\mu} Q_{L}^{i} + \overline{u}_{R}^{i} i \gamma^{\mu} D_{\mu} u_{R}^{i} \\
 &+ \overline{d}_{R}^{i} i \gamma^{\mu} D_{\mu} d_{R}^{i} + \overline{L}_{L}^{i} i \gamma^{\mu} D_{\mu} L_{L}^{i} + \overline{e}_{R}^{i} i \gamma^{\mu} D_{\mu} e_{R}^{i} - \mu^{2} \phi^{\dagger} \phi - \lambda (\phi^{\dagger} \phi)^{2} \\
 &+ (D_{\mu} \phi)^{\dagger} (D^{\mu} \phi) + \overline{Q}_{L}^{i} \phi_{i j} u_{R}^{j} - \overline{Q}_{L}^{i} \tilde{\phi}_{i j} d_{R}^{j} + \overline{L}_{L}^{i} \phi_{i j} e_{R}^{j} + \text{h.c.}
-\end{aligned}
-$$
+\end{aligned}$$
 
 以上就是Markdown和KaTeX的语法和用法的全面介绍。这些公式和符号的美，在于它们可以用简单的形式，描述出复杂的现象和关系。希望你在阅读和学习这份文档的过程中，能感受到这种美。
